@@ -1,0 +1,23 @@
+{
+  "name": "tinywan/redis-lock",
+  "description": "Redis locks in PHP for build composer packagist",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tinywan",
+      "email": "756684177@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2.0",
+    "ext-redis": "*"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "tinywan\\": "src/"
+    }
+  }
+
+}
